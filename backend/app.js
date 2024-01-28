@@ -23,7 +23,7 @@ app.get('/api/stuff', (req, res, next) => {
       _id: 'oeihfzeoi',
       title: 'My first thing',
       description: 'All of the info about my first thing',
-      imageUrl: '',
+      imageUrl: 'https://images.pexels.com/photos/18011894/pexels-photo-18011894/free-photo-of-tea-glasses-on-windowsill.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       price: 4900,
       userId: 'qsomihvqios',
     },
@@ -31,9 +31,18 @@ app.get('/api/stuff', (req, res, next) => {
       _id: 'oeihfzeomoihi',
       title: 'My second thing',
       description: 'All of the info about my second thing',
-      imageUrl: '',
+      imageUrl: 'https://images.pexels.com/photos/7490540/pexels-photo-7490540.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       price: 2900,
       userId: 'qsomihvqios',
+    },
+
+    {
+      _id: 'oeihfzsksihi',
+      title: 'My third thing',
+      description: 'All of the info about my third thing',
+      imageUrl: 'https://images.pexels.com/photos/19748403/pexels-photo-19748403/free-photo-of-a-red-and-white-striped-tent-in-front-of-a-building.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
+      price: 2900,
+      userId: 'qsojdkjsksk',
     },
   ];
   res.status(200).json(stuff);
